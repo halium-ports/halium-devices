@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <project path="device/google/marlin" name="zhxt/android_device_google_marlin" remote="private" revision="halium-9.0" />
+    <project path="device/google/sailfish" name="zhxt/android_device_google_sailfish"  remote="private" revision="lineage-16.0" />
+    <project path="proprietary/vendor/google" name="TheMuppets/proprietary_vendor_google"  remote="private" revision="lineage-16.0" />
+    <project path="kernel/google/marlin" name="zhxt/android_kernel_google_marlin" remote="private" revision="halium-9.0" />
+
+    <remove-project name="mer-hybris/hybris-boot"/>
+    <project path="hybris/hybris-boot" name="halium-ports/hybris-boot" revision="master"/>
+
+</manifest>
